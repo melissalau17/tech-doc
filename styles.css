@@ -119,6 +119,11 @@ code {
   }
 }
 
+.link:hover {
+  color: #fade34;
+  transition: 0.5s ease;
+}
+
 @media only screen and (max-width: 400px) {
   #main-doc {
     margin-left: -10px;
