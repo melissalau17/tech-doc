@@ -96,7 +96,7 @@ code {
 @media only screen and (max-width: 815px) {
   /* For mobile phones: */
   #navbar ul {
-    border: 1px solid;
+    border-bottom:  #fade34 4px dotted;
     height: 207px;
   }
 
@@ -109,32 +109,36 @@ code {
     max-height: 275px;
     border: none;
     z-index: 1;
-    border-bottom: 2px solid;
+    
   }
 
+  #main-doc header {
+    text-align: center;
+  }
+  
   #main-doc {
     position: relative;
     margin-left: 0px;
-    margin-top: 270px;
+    margin-top: 280px;
+    background-color: #fffde8;
   }
-}
 
 .link:hover {
   color: #fade34;
   transition: 0.5s ease;
 }
+}
 
 @media only screen and (max-width: 400px) {
-  #main-doc {
-    margin-left: -10px;
-  }
-
   code {
-    margin-left: -20px;
+    margin-left: 0px;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     padding-left: 10px;
     padding-right: 45px;
     min-width: 233px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
   }
 }
