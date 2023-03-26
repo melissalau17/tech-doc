@@ -93,6 +93,11 @@ code {
   width: 50%;
 }
 
+.link:hover {
+  color: #fade34;
+  transition: 0.5s ease;
+}
+
 @media only screen and (max-width: 815px) {
   /* For mobile phones: */
   #navbar ul {
@@ -122,11 +127,6 @@ code {
     margin-top: 280px;
     background-color: #fffde8;
   }
-
-.link:hover {
-  color: #fade34;
-  transition: 0.5s ease;
-}
 }
 
 @media only screen and (max-width: 400px) {
