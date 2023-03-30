@@ -1,18 +1,11 @@
-@font-face {font-family: "Futura PT Medium";
-    src: url("http://db.onlinewebfonts.com/t/3c6b0199ae7b57966132e83c939d77e2.eot"); /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/3c6b0199ae7b57966132e83c939d77e2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/3c6b0199ae7b57966132e83c939d77e2.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/3c6b0199ae7b57966132e83c939d77e2.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/3c6b0199ae7b57966132e83c939d77e2.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/3c6b0199ae7b57966132e83c939d77e2.svg#Futura PT Medium") format("svg"); /* iOS 4.1- */
-}
+@import url('https://www.dafontfree.net/embed/ZnV0dXJhLXN0ZC1saWdodC1jb25kZW5zZWQmZGF0YS80Ni9mLzU4NzYxL0Z1dHVyYVN0ZC1Db25kZW5zZWRMaWdodC5vdGY');
 
 html,
 body {
   min-width: 290px;
   color: rgba(255,253,232,255);
   background-color: #fffde8;
-  font-family: Futura Std Condensed Light;
+  font-family: 'futura-std-light-condensed', sans-serif;
   line-height: 1.5;
 }
 
