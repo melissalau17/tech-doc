@@ -1,11 +1,17 @@
-@import url('https://www.dafontfree.net/embed/ZnV0dXJhLXN0ZC1saWdodC1jb25kZW5zZWQmZGF0YS80Ni9mLzU4NzYxL0Z1dHVyYVN0ZC1Db25kZW5zZWRMaWdodC5vdGY');
+@import url('https://fonts.cdnfonts.com/css/futura-condensed-pt');
 
-html,
+@font-face{
+  font-family:futura pt;
+  font-style:normal;
+  font-weight:300;
+  src:local('Futura PT'),url(https://fonts.cdnfonts.com/s/14436/futura-pt-light-589a6e187563a.woff) format('woff')
+}
+
 body {
   min-width: 290px;
   color: rgba(255,253,232,255);
   background-color: #fffde8;
-  font-family: 'futura-std-light-condensed', sans-serif;
+  font-family: futura pt;
   line-height: 1.5;
 }
 
