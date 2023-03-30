@@ -1,10 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/futura-condensed-pt');
 
-@font-face{
+@font-face {
   font-family: futura pt;
   font-style: normal;
   font-weight: 300;
-  src:local('Futura PT'),url(https://melissalau17.github.io/tech-doc/futura-pt-light-589a6e187563a.woff) format('woff')
+  src: local('Futura PT'),url(https://melissalau17.github.io/tech-doc/futura-pt-light-589a6e187563a.woff) format('woff')
 }
 
 html,
